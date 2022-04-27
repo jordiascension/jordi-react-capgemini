@@ -1,3 +1,18 @@
+# How to deploty to heroku
+1-Download heroku cli:
+https://devcenter.heroku.com/articles/heroku-cli
+
+2-heroku login
+
+3-heroku git:remote -a jordi-react-capgemini
+(jordi-react-capgemini is your application name in heroku)
+
+4-git add . & git commit -am "message"
+(Or do it with sourcetree)
+
+5-git push heroku master
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
