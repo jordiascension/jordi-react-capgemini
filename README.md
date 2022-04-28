@@ -12,6 +12,20 @@ https://devcenter.heroku.com/articles/heroku-cli
 
 5-git push heroku master
 
+# react-table
+
+https://medium.com/how-to-react/create-a-table-like-datatables-in-react-using-react-table-fbea64eca3ac
+
+# package.json dependencias
+
+En términos más sencillos, la senoidal coincide con la versión menor más reciente (el número central). ~1.2.3 coincidirá con todas las versiones 1.2.x pero pero se perderá la 1.3.0. 
+ 
+
+El caret (acento circunflejo), en cambio, es más relajado. Te actualizará a la versión principal más reciente (el primer número). ^1.2.3 coincidirá con con cualquier versión 1.x.x, incluida la 1.3.0, pero no con la 2.0.0.
+
+# Force npm install
+
+npm install --force
 
 # Getting Started with Create React App
 
