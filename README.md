@@ -16,6 +16,12 @@ https://devcenter.heroku.com/articles/heroku-cli
 
 https://medium.com/how-to-react/create-a-table-like-datatables-in-react-using-react-table-fbea64eca3ac
 
+# install bootstrap
+
+npm install react-bootstrap bootstrap --force
+-in index.js include this line:
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 # package.json dependencias
 
 En términos más sencillos, la senoidal coincide con la versión menor más reciente (el número central). ~1.2.3 coincidirá con todas las versiones 1.2.x pero pero se perderá la 1.3.0. 
