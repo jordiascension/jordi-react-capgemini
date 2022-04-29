@@ -6,6 +6,7 @@ import Page3 from"./components/Page3";
 import Page4 from"./components/Page4"; 
 import Page5 from"./components/Page5"; 
 import Page6 from"./components/Page6"; 
+import Page7 from"./components/Page7"; 
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="page4" element={<Page4 />} />
           <Route exact path="page5" element={<Page5 />} />
           <Route exact path="page6" element={<Page6 />} />
+          <Route exact path="page7" element={<Page7 />} />
         </Routes>
         <div className="list">
           <ul>
@@ -30,6 +32,7 @@ function App() {
             <li><Link to="page4">Page 4 Table</Link></li>
             <li><Link to="page5">Page 5 Api Table</Link></li>
             <li><Link to="page6">Page 6 Basic Form</Link></li>
+            <li><Link to="page7">Page 7 Pension Plan</Link></li>
           </ul>
         </div>
       </Router>
