@@ -7,6 +7,7 @@ import Page4 from"./components/Page4";
 import Page5 from"./components/Page5"; 
 import Page6 from"./components/Page6"; 
 import Page7 from"./components/Page7"; 
+import Page8 from"./components/Page8"; 
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="page5" element={<Page5 />} />
           <Route exact path="page6" element={<Page6 />} />
           <Route exact path="page7" element={<Page7 />} />
+          <Route exact path="page8" element={<Page8 />} />
         </Routes>
         <div className="list">
           <ul>
@@ -33,6 +35,7 @@ function App() {
             <li><Link to="page5">Page 5 Api Table</Link></li>
             <li><Link to="page6">Page 6 Basic Form</Link></li>
             <li><Link to="page7">Page 7 Pension Plan</Link></li>
+            <li><Link to="page8">Page 8 Complex Form</Link></li>
           </ul>
         </div>
       </Router>
